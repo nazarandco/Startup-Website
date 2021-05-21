@@ -94,7 +94,7 @@
     }
   }
 }
-.audience__cards {
+.audience__user {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,7 +107,7 @@
     padding: 0;
   }
 
-  &_user {
+  &-card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -128,7 +128,7 @@
     }
   }
 
-  &_user:hover {
+  &-card:hover {
     background-color: $color-hover-blue;
     color: $color-white;
     box-shadow: $cards-hover-shadow;
