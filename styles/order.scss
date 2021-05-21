@@ -15,19 +15,25 @@
 
   &__illustration {
     max-width: 200px;
+    margin: 50px 45px 0 45px;
 
     @include for-large-up {
       max-width: 269.41px;
-      margin-right: 121.59px;
+      margin: 0 121.59px 0 0;
     }
   }
 
   &__title {
+    width: 290px;
     margin-top: 40px;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.25px;
+
+    @include for-large-up {
+      width: 555px;
+    }
   }
 
   &__text {
@@ -83,6 +89,7 @@
   }
 
   &__terms {
+    margin: 10px 0 0 0;
     font-size: 14px;
     line-height: 22px;
     color: $text-color-light-grey;

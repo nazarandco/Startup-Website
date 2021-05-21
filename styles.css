@@ -626,19 +626,26 @@
 }
 .order__illustration {
   max-width: 200px;
+  margin: 50px 45px 0 45px;
 }
 @media (min-width: 1400px) {
   .order__illustration {
     max-width: 269.41px;
-    margin-right: 121.59px;
+    margin: 0 121.59px 0 0;
   }
 }
 .order__title {
+  width: 290px;
   margin-top: 40px;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.25px;
+}
+@media (min-width: 1400px) {
+  .order__title {
+    width: 555px;
+  }
 }
 .order__text {
   margin: 0;
@@ -692,6 +699,7 @@
   }
 }
 .order__terms {
+  margin: 10px 0 0 0;
   font-size: 14px;
   line-height: 22px;
   color: #2b292d99;
