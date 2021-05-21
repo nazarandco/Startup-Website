@@ -1,4 +1,4 @@
-# Startup-Website
+Layout Sample Project
 
 Site link: https://nazarandco.github.io/Startup-Website/
 
