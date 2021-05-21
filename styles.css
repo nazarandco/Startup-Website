@@ -660,6 +660,7 @@
 @media (min-width: 1400px) {
   .order__title {
     width: 555px;
+    text-align: left;
   }
 }
 .order__text {
