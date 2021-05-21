@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'breakpoints';
+@import 'common';
+@import 'header';
+@import 'headline';
+@import 'about';
+@import 'customers';
+@import 'features';
+@import 'tips';
+@import 'audiences';
+@import 'order';
+@import 'footer';
+
+* {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color: $text-color-dark-grey;
+  }
+  .page {
+    width: 100%;
+
+    @include for-large-up {
+      display: flex;
+      flex-direction: column;
+      max-width: 1400px;
+      margin: auto;
+    }
+  }
+  
