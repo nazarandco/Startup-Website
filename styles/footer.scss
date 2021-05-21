@@ -28,6 +28,12 @@
     }
   }
 
+  .hide_mobile {
+    @include for-large-down {
+      display: none;
+    }
+  }
+
   .logo {
     @include for-large-down {
       display: none;
@@ -36,7 +42,11 @@
 }
 
 .about-company {
-  margin-top: 44px;
+  margin-top: 40px;
+
+  @include for-large-up {
+    margin-top: 44px;
+  }
 }
 
 .footer-navigation {
@@ -56,7 +66,7 @@
 .downloads {
   display: flex;
   justify-content: center;
-  margin: 31px 15px 0 30px;
+  margin: 31px 29px 0 30px;
 
   @include for-large-up {
     margin: 25px 0 0 0;

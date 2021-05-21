@@ -739,13 +739,23 @@
   }
 }
 @media (max-width: 1399px) {
+  .footer .hide_mobile {
+    display: none;
+  }
+}
+@media (max-width: 1399px) {
   .footer .logo {
     display: none;
   }
 }
 
 .about-company {
-  margin-top: 44px;
+  margin-top: 40px;
+}
+@media (min-width: 1400px) {
+  .about-company {
+    margin-top: 44px;
+  }
 }
 
 .footer-navigation {
@@ -766,7 +776,7 @@
 .downloads {
   display: flex;
   justify-content: center;
-  margin: 31px 15px 0 30px;
+  margin: 31px 29px 0 30px;
 }
 @media (min-width: 1400px) {
   .downloads {
