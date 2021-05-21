@@ -582,8 +582,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 290px;
-  height: 300px;
+  height: 100%;
   margin: 15px 0 0 0;
   background-color: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
@@ -609,6 +610,14 @@
 }
 .user-card__img {
   padding: 22px 0 22px 0;
+}
+.user-card__text {
+  margin: 0 20px 33px 20px;
+}
+@media (min-width: 1400px) {
+  .user-card__text {
+    margin: 0 25px 33px 25px;
+  }
 }
 
 .order {
