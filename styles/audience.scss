@@ -98,12 +98,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px 0 50px 0;
+  padding: 40px 0 50px 0;
 
   @include for-large-up {
     flex-direction: row;
     justify-content: space-between;
-    margin: 111px 131px 110px 130px;
+    margin: 110px 130px 110px 130px;
     padding: 0;
   }
 
@@ -121,6 +121,10 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
+
+    &:first-child {
+      margin: 0;
+    }
 
     @include for-large-up {
       width: 262px;
