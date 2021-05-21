@@ -4,7 +4,6 @@
   background-color: $color-light-blue;
 
   @include for-large-up {
-    margin: 20px 0 0 0;
     padding: 0;
   }
 }
