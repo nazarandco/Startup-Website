@@ -1,4 +1,4 @@
-.audiences {
+.audience {
   width: 100%;
   padding: 0 15px;
   background-color: $color-light-blue;
@@ -9,7 +9,7 @@
   }
 }
 
-.audiences__text {
+.audience__text {
   display: flex;
   flex-direction: column;
 
@@ -94,7 +94,7 @@
     }
   }
 }
-.audiences__cards {
+.audience__cards {
   display: flex;
   flex-direction: column;
   align-items: center;
