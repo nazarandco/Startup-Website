@@ -37,15 +37,15 @@
     line-height: 32px;
 
     @include for-large-up {
-        margin-top: 12px;
-      }
+      margin-top: 12px;
+    }
   }
 
   &__form {
     @include for-large-up {
-        display: flex;
-        margin-top: 26px;
-      }
+      display: flex;
+      margin-top: 26px;
+    }
   }
 
   &__email {
@@ -60,9 +60,9 @@
     line-height: 13px;
 
     @include for-large-up {
-        margin-top: 0;
-        width: 385px;
-      }
+      margin-top: 0;
+      width: 385px;
+    }
 
     &::placeholder {
       color: $text-color-dark-grey;
@@ -73,13 +73,13 @@
     margin-top: 12px;
 
     @include for-large-down {
-        width: 100%;
-      }
+      width: 100%;
+    }
 
     @include for-large-up {
-        margin-top: 0;
-        margin-left: 10px;
-      }
+      margin-top: 0;
+      margin-left: 10px;
+    }
   }
 
   &__terms {
