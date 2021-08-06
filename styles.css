@@ -338,6 +338,7 @@
 .features {
   display: flex;
   position: relative;
+  margin-bottom: 103px;
 }
 @media (max-width: 1399px) {
   .features {
@@ -649,7 +650,6 @@
   }
 }
 .order__title {
-  width: 290px;
   margin: 40px 0 0 0;
   font-weight: 700;
   font-size: 40px;
@@ -659,7 +659,6 @@
 }
 @media (min-width: 1400px) {
   .order__title {
-    width: 555px;
     text-align: left;
   }
 }

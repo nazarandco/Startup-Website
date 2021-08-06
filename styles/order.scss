@@ -27,7 +27,7 @@
   }
 
   &__title {
-    width: 290px;
+    // width: 290px;
     margin: 40px 0 0 0;
     font-weight: 700;
     font-size: 40px;
@@ -36,7 +36,7 @@
     text-align: center;
 
     @include for-large-up {
-      width: 555px;
+      // width: 555px;
       text-align: left;
     }
   }
